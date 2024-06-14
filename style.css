@@ -1,0 +1,32 @@
+/* CSS Reset */
+
+/* Box sizing, Margin */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* List styles */
+ul {
+    list-style: none;
+}
+
+/* Typography */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
