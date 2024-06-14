@@ -53,9 +53,21 @@
             <h2>Über Uns</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </section>
-        
+
         <section>
             <h2>Kontakt</h2>
+
+            <form action="" method="post">
+                <label for="name">Name</label>
+                <input type="text"  id="name" placeholder="dein Name" required autocomplete="additional-name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="deine@email.com" required autocomplete="email">
+
+                <label for="message">Nachricht</label>
+                <textarea name="message" id="message" placeholder="Deine Nachricht" required maxlength="5000">Deine Nachricht</textarea>          
+                <button type="submit">Senden</button>    
+            </form>
         </section>
     </main>
     <footer>
