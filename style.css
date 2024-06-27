@@ -63,7 +63,7 @@
     width: 100%;
     max-width: calc(
       100% - 2rem
-    ); // diese Zeile rechnet 2rem von 100% ab und setzt das Ergebnis als max-width um den Inhalt zu zentrieren
+    ); 
     margin: auto;
     padding: 0 1rem;
   }
